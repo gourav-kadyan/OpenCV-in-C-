@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/kpit/OpenPrac/randomEmoji.cpp
-iostream
--
+/home/kpit/OpenPrac/SIFT.cpp
 opencv4/opencv2/opencv.hpp
+-
+iostream
 -
 

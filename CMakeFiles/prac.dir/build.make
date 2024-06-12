@@ -57,27 +57,27 @@ include CMakeFiles/prac.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/prac.dir/flags.make
 
-CMakeFiles/prac.dir/randomEmoji.cpp.o: CMakeFiles/prac.dir/flags.make
-CMakeFiles/prac.dir/randomEmoji.cpp.o: randomEmoji.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kpit/OpenPrac/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prac.dir/randomEmoji.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prac.dir/randomEmoji.cpp.o -c /home/kpit/OpenPrac/randomEmoji.cpp
+CMakeFiles/prac.dir/SIFT.cpp.o: CMakeFiles/prac.dir/flags.make
+CMakeFiles/prac.dir/SIFT.cpp.o: SIFT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kpit/OpenPrac/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prac.dir/SIFT.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prac.dir/SIFT.cpp.o -c /home/kpit/OpenPrac/SIFT.cpp
 
-CMakeFiles/prac.dir/randomEmoji.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prac.dir/randomEmoji.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kpit/OpenPrac/randomEmoji.cpp > CMakeFiles/prac.dir/randomEmoji.cpp.i
+CMakeFiles/prac.dir/SIFT.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prac.dir/SIFT.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kpit/OpenPrac/SIFT.cpp > CMakeFiles/prac.dir/SIFT.cpp.i
 
-CMakeFiles/prac.dir/randomEmoji.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prac.dir/randomEmoji.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kpit/OpenPrac/randomEmoji.cpp -o CMakeFiles/prac.dir/randomEmoji.cpp.s
+CMakeFiles/prac.dir/SIFT.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prac.dir/SIFT.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kpit/OpenPrac/SIFT.cpp -o CMakeFiles/prac.dir/SIFT.cpp.s
 
 # Object files for target prac
 prac_OBJECTS = \
-"CMakeFiles/prac.dir/randomEmoji.cpp.o"
+"CMakeFiles/prac.dir/SIFT.cpp.o"
 
 # External object files for target prac
 prac_EXTERNAL_OBJECTS =
 
-prac: CMakeFiles/prac.dir/randomEmoji.cpp.o
+prac: CMakeFiles/prac.dir/SIFT.cpp.o
 prac: CMakeFiles/prac.dir/build.make
 prac: /usr/local/lib/libopencv_gapi.so.4.9.0
 prac: /usr/local/lib/libopencv_highgui.so.4.9.0

@@ -520,32 +520,32 @@ prac/fast:
 	$(MAKE) -f CMakeFiles/prac.dir/build.make CMakeFiles/prac.dir/build
 .PHONY : prac/fast
 
-randomEmoji.o: randomEmoji.cpp.o
+SIFT.o: SIFT.cpp.o
 
-.PHONY : randomEmoji.o
+.PHONY : SIFT.o
 
 # target to build an object file
-randomEmoji.cpp.o:
-	$(MAKE) -f CMakeFiles/prac.dir/build.make CMakeFiles/prac.dir/randomEmoji.cpp.o
-.PHONY : randomEmoji.cpp.o
+SIFT.cpp.o:
+	$(MAKE) -f CMakeFiles/prac.dir/build.make CMakeFiles/prac.dir/SIFT.cpp.o
+.PHONY : SIFT.cpp.o
 
-randomEmoji.i: randomEmoji.cpp.i
+SIFT.i: SIFT.cpp.i
 
-.PHONY : randomEmoji.i
+.PHONY : SIFT.i
 
 # target to preprocess a source file
-randomEmoji.cpp.i:
-	$(MAKE) -f CMakeFiles/prac.dir/build.make CMakeFiles/prac.dir/randomEmoji.cpp.i
-.PHONY : randomEmoji.cpp.i
+SIFT.cpp.i:
+	$(MAKE) -f CMakeFiles/prac.dir/build.make CMakeFiles/prac.dir/SIFT.cpp.i
+.PHONY : SIFT.cpp.i
 
-randomEmoji.s: randomEmoji.cpp.s
+SIFT.s: SIFT.cpp.s
 
-.PHONY : randomEmoji.s
+.PHONY : SIFT.s
 
 # target to generate assembly for a file
-randomEmoji.cpp.s:
-	$(MAKE) -f CMakeFiles/prac.dir/build.make CMakeFiles/prac.dir/randomEmoji.cpp.s
-.PHONY : randomEmoji.cpp.s
+SIFT.cpp.s:
+	$(MAKE) -f CMakeFiles/prac.dir/build.make CMakeFiles/prac.dir/SIFT.cpp.s
+.PHONY : SIFT.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... ContinuousSubmit"
 	@echo "... NightlyTest"
 	@echo "... prac"
-	@echo "... randomEmoji.o"
-	@echo "... randomEmoji.i"
-	@echo "... randomEmoji.s"
+	@echo "... SIFT.o"
+	@echo "... SIFT.i"
+	@echo "... SIFT.s"
 .PHONY : help
 
 

@@ -6,7 +6,7 @@ find_package(OpenCV)
 include_directories(${OpenCV_INCLUDE_DIRS})
 enable_testing()
 
-add_executable(prac randomEmoji.cpp)
+add_executable(prac SIFT.cpp)
 target_link_libraries(prac ${OpenCV_LIBS})
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

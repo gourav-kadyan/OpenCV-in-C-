@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/prac.dir/randomEmoji.cpp.o"
+  "CMakeFiles/prac.dir/SIFT.cpp.o"
   "prac"
   "prac.pdb"
 )

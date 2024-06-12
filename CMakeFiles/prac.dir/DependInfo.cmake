@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kpit/OpenPrac/randomEmoji.cpp" "/home/kpit/OpenPrac/CMakeFiles/prac.dir/randomEmoji.cpp.o"
+  "/home/kpit/OpenPrac/SIFT.cpp" "/home/kpit/OpenPrac/CMakeFiles/prac.dir/SIFT.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

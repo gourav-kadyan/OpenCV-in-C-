@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/kpit/OpenPrac/build",
-  "command": "/usr/bin/c++   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/prac.dir/randomEmoji.cpp.o -c /home/kpit/OpenPrac/randomEmoji.cpp",
-  "file": "/home/kpit/OpenPrac/randomEmoji.cpp"
+  "command": "/usr/bin/c++   -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/prac.dir/SIFT.cpp.o -c /home/kpit/OpenPrac/SIFT.cpp",
+  "file": "/home/kpit/OpenPrac/SIFT.cpp"
 }
 ]
